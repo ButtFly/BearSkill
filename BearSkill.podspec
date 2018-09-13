@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BearSkill"
-  s.version          = "0.2.0"
+  s.version          = "0.3.0"
   s.summary          = "BearSkill contain some methods used frequently in project."
 
 # This description is used to generate tags and improve search results.
@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
 BearSkill contain some methods used frequently in project. And many other methods about layout.
                        DESC
 
-  s.homepage         = "https://github.com/BearRan/BearSkill"
+  s.homepage         = "https://github.com/ButtFly/BearSkill"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Bear" => "648070256@qq.com" }
-  s.source           = { :git => "https://github.com/BearRan/BearSkill.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ButtFly/BearSkill.git", :tag => s.version.to_s }
   s.resource         = 'Pod/Resource/*'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
