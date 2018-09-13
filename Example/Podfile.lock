@@ -1,21 +1,88 @@
 PODS:
-  - BearSkill (0.0.2)
-  - FBSnapshotTestCase (2.0.7):
-    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
-  - FBSnapshotTestCase/Core (2.0.7)
-  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BearSkill (0.2.0):
+    - BearSkill/AttributeString (= 0.2.0)
+    - BearSkill/BearDefines (= 0.2.0)
+    - BearSkill/Constants (= 0.2.0)
+    - BearSkill/Layout (= 0.2.0)
+    - BearSkill/Request (= 0.2.0)
+    - BearSkill/Tools (= 0.2.0)
+    - BearSkill/UIAndExtend (= 0.2.0)
+  - BearSkill/AttributeString (0.2.0)
+  - BearSkill/BearDefines (0.2.0)
+  - BearSkill/Constants (0.2.0):
+    - MBProgressHUD
+  - BearSkill/Layout (0.2.0)
+  - BearSkill/Request (0.2.0):
+    - AFNetworking
+    - BearSkill/Request/no-arc (= 0.2.0)
+    - GBDeviceInfo
+  - BearSkill/Request/no-arc (0.2.0):
+    - AFNetworking
+    - GBDeviceInfo
+  - BearSkill/Tools (0.2.0):
+    - Reachability
+  - BearSkill/UIAndExtend (0.2.0):
+    - MBProgressHUD
+    - SDWebImage
+    - UIImage-Helpers (~> 0.0.2)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - GBDeviceInfo (5.2.0):
+    - GBDeviceInfo/Core (= 5.2.0)
+  - GBDeviceInfo/Core (5.2.0)
+  - MBProgressHUD (1.0.0)
+  - Reachability (3.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - UIImage-Helpers (0.0.3)
 
 DEPENDENCIES:
   - BearSkill (from `../`)
   - FBSnapshotTestCase
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FBSnapshotTestCase
+    - GBDeviceInfo
+    - MBProgressHUD
+    - Reachability
+    - SDWebImage
+    - UIImage-Helpers
+
 EXTERNAL SOURCES:
   BearSkill:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  BearSkill: 6c964b865acb1a09d99a2dfbee06e4c64961378f
-  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BearSkill: 650817c50ecf30623ff5138d49901a3bf7df7bb3
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GBDeviceInfo: 2c65ceb9404f9079264d4c238f5b81916fdfc5e2
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  UIImage-Helpers: 06b04a42bdd222844035602e87e936765c80f620
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: ce1d8cc70a294b3e722bbded798d2c32851a6e28
+
+COCOAPODS: 1.5.3

@@ -28,7 +28,7 @@ BearSkill contain some methods used frequently in project. And many other method
   s.resource         = 'Pod/Resource/*'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.1'
   s.requires_arc = true
   s.resource = 'Pod/Sources/*'
 
