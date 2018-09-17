@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "BearSkill"
+  s.name             = "LYBearSkill"
   s.version          = "0.3.0"
   s.summary          = "BearSkill contain some methods used frequently in project."
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-BearSkill contain some methods used frequently in project. And many other methods about layout.
+BearSkill contain some methods used frequently in project. And many other methods about layout.(删掉使用了私有API的部分)
                        DESC
 
   s.homepage         = "https://github.com/ButtFly/BearSkill"
